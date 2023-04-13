@@ -95,4 +95,4 @@ void printPath(int **mst, int start, int end) {
     
     // print the path
     printf("Path between vertices %d and %d: %d", start, end, start);
-    int node =
+    
