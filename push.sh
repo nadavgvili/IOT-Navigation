@@ -5,6 +5,9 @@ git add .
 read -p "Enter commit message: " message
 
 git commit -m "$message"
+git push --all origin-github
+git push --all origin-gitlab
+
 
 #basically the line below performs manual push to both remotes: orgini-gihub & origin-gitlab.
 #on leetcode/.git/hooks/post-commit there is a hook doing the push after every commit
@@ -19,3 +22,4 @@ git commit -m "$message"
 #git push --tags origin-gitlab
 
 #Note: The --all option will push all branches and tags
+
